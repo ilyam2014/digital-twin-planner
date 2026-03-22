@@ -1,29 +1,16 @@
-import { defineNuxtConfig } from 'nuxt/config'
+import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss'],
-  
-  // Nuxt 4 compatibility features
-  future: {
-    compatibilityVersion: 4,
-  },
+  modules: ["@nuxtjs/tailwindcss"],
 
   devtools: { enabled: false },
 
-  nitro: {
-    experimental: {
-      openAPI: true
-    }
-  },
-
   app: {
     head: {
-      title: 'Digital Twin - Room Planner',
-      meta: [
-        { name: 'description', content: 'Visual room planner for your home renovation' }
-      ]
-    }
+      title: "Digital Twin - Room Planner",
+      meta: [{ name: "description", content: "Visual room planner for your home renovation" }],
+    },
   },
 
-  compatibilityDate: '2024-04-03'
-})
+  compatibilityDate: "2026-03-22",
+});
