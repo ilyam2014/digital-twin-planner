@@ -1,0 +1,5 @@
+{
+  "name": "Digital Twin Planner",
+  "description": "Visual room planner with drag-and-drop furniture and cost estimation.",
+  "requestFramePermissions": []
+}
