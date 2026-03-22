@@ -1,9 +1,22 @@
-node_modules/
-build/
-dist/
-coverage/
-.DS_Store
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
 *.log
-.env*
+
+# Misc
+.DS_Store
+
+# Local env files
+.env
+.env.*
 !.env.example
-.nuxt/
